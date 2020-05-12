@@ -10,7 +10,7 @@ class App extends Component {
     time: '',
     tides: []
   }
-
+  
 url = 'https://www.worldtides.info/api/v2?extremes&date=' + moment().format('YYYY-MM-DD') + '&lat=53.960660&lon=-6.365030&key=ce0ae41b-2717-4655-87b3-c2892010f7a1'
 componentDidMount() {
   fetch(this.url)
