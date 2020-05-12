@@ -1,0 +1,48 @@
+body {
+  background-image: url("../../Blackrock.jpg");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-position: -850px 0px;
+}
+
+.header{
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 24px;
+   background-color: #333;
+  text-transform: uppercase;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.upcoming {
+ margin-top: 20px;
+ color: #fbf2f2;
+    font-size: 20px;
+}
+
+.details {
+  margin-top: 50px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  opacity: 0.5;
+  border-radius: 0 5px 5px 0;
+  z-index: 2;
+  margin-right: 30%;
+}
+
+.picture {
+  position: absolute;
+  top: 70px;
+}
+
+.title {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.time {
+  font-size: 28px;
+  padding-bottom: 10px;
+}
